@@ -1,0 +1,480 @@
+@media (max-width: 991px){
+    .feature-info{
+        margin-right: 19%
+    }
+}
+@media (min-width: 992px){
+    .banner{
+        min-height: 650px
+    }
+    .barra-menu{
+    margin-top: 55px;
+    margin-left: 24%;
+    }
+    .intro-para{
+        margin-top: 7% !important
+    }
+    .text-border{
+        margin-top: 14%
+    }
+    .boton-fondo{
+        margin-top: 10%
+    }
+}
+@media (width: 768px){
+    .navbar-default .navbar-nav{
+        margin-top: 50px;
+        margin-left: 150px
+    }
+}
+@media (max-width: 768px){
+    figcaption{
+        background-color: rgba( 50, 121, 234, 0.431 )
+    }
+    figcaption p{
+        max-width: 350px;
+        margin-top: 20%
+    }
+}
+@media (min-width: 769px) and (max-width: 991px){
+    .banner{
+        min-height: 650px;
+    }
+    .barra-menu{
+    margin-top: 55px;
+    margin-left: 24%;
+    }
+    .intro-para{
+        margin-top: 7% !important
+    }
+    .text-border{
+        margin-top: 19%
+    }
+    .boton-fondo{
+        margin-top: 10%
+    }
+    figcaption h3{
+        font-size: 18px
+    }
+    figcaption p{
+        font-size: 12px
+    }
+}
+@media (min-width: 769px) and (max-width: 980px) {
+    .ser-text {
+    font-size: 20px;
+    }
+    .service-box, .feature-info, .orga-stru{
+        margin-bottom: 30px;
+    }
+    .pricing-head .amount {
+    font-size: 51px;
+    }
+    .price-table .pricing-head h4 {
+    font-size: 18px;
+    }
+}
+@media (min-width: 451px) and (max-width: 768px) {
+    .ser-text {
+    font-size: 20px;
+    }
+    .service-box, .feature-info{
+        margin-bottom: 30px;
+    }
+    .pricing-head .amount {
+    font-size: 51px;
+    }
+    .price-table .pricing-head h4 {
+    font-size: 18px;
+    }
+    .banner-text .text-border{
+        margin-top: 25% !important;
+        
+    }
+    .intro-para h3{
+        margin-top: 10% !important
+    }
+    .banner{
+        height: 100vh;
+        max-height: 900px;
+        min-height: 650px
+    }
+}
+@media (min-width: 550px) and (max-width: 768px){
+    .banner{
+        background-image: url(/img/banner-connect-mobile-750px.jpg);
+        height: 100vh;
+        max-height: 800px;
+        display: block;
+        position: relative;
+    }
+    .text-border{
+        margin-top: 14%
+    }.intro-para{
+        width: 400px;
+        margin-top: 5% !important
+    }
+    .title-slider{
+        margin-top: -5%
+    }
+    .boton-fondo{
+        margin-top: 10%;
+        text-align: 
+    }
+}
+@media (min-width: 451px) and (max-width: 549px){
+    .banner{
+        background-image: url(/img/banner-connect-mobile-750px.jpg);
+        height: 100vh;
+        max-height: 800px;
+        display: block;
+        position: relative;
+    }
+    .intro-para{
+        width: 300px;
+        margin-top: 10px;
+    }
+    .quote .btn{
+        margin-top: 10px
+    }
+    .text-border{
+        margin-top: 120px
+    }
+    .boton-fondo{
+        margin-top: 12% !important;
+    }
+}@media (min-width: 361px) and (max-width: 450px) {
+    .banner{
+        background-image: url(/img/banner-connect-mobile-750px.jpg);
+        height: 100vh;
+        max-height: 800px;
+        display: block;
+        position: relative;
+    }
+    .banner::after {
+        content: "";
+        opacity: 0.5;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+    .text-border{
+        width: 200px;
+        height: 70px;
+        margin-top: 35%
+    }
+    .intro-para{
+        width: 270px;
+        margin-top: 0px;
+    }
+    .intro-para p{
+        width: 200px;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+    .intro-para h3{
+        font-size: 15px !important;
+    }
+    .text-dec {
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .title-slider{
+        height: 200px;
+        margin-bottom: 10%
+    }
+    .title-slider h1{
+        font-size: 20px;
+        margin: -10px 0 -10px 0;
+    }
+    .img-slider{
+        width: 70px;
+    }
+    .boton-fondo{
+        width: 70px;
+        height: 35px;
+        position: relative;
+        font-size: 12px !important;
+        margin-top: -20%;
+        padding-top: 1px;
+        padding-right: 10px;
+        padding-left: 6px;
+        text-align: center !important
+    }
+    .quote .btn{
+        width: 70px;
+        height: 30px;
+        font-size: 11px;
+        padding-left: 3.5px;
+        padding-top: 7px;
+    }
+    .get-quote{
+        margin-left: 
+    }
+    .big-text {
+        font-size: 20px;
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .small-text {
+    font-size: 14px;
+    }
+    .intro-para {
+    font-size: 30px;
+    }
+    .header-section p{
+        font-size: 14px;
+    }
+    .heading {
+    margin-bottom: 20px;
+    }
+    .orga-stru i {
+    font-size: 92px;
+    }
+    .orga-stru {
+    padding: 5px 5px 15px 5px;
+    width: 75px;
+    margin-bottom: 20px;
+    }
+    .orga-stru h3 {
+    font-size: 28px;
+    }
+    .orga-stru p {
+    font-size: 13px;
+    }
+    h3.det-txt {
+    font-size: 28px;
+    }
+    .cta-2-txt {
+    font-size: 20px;
+    }
+    .service-box, .text-comment, .price-table{
+        margin-bottom: 30px;
+    }
+    .contact-form-button{
+        width: 40%;
+    }
+    .footer .social-links li {
+    margin: 0 5px 25px;
+    }
+    .cta-2-form-submit-btn {
+    font-size: 10px;
+    }
+    .cta-2-form input[type="email"] {
+    padding: 13px 10px;
+    font-size: 10px;
+    min-width: 187px;
+    }
+    .modal-sm {
+    width: 300px;
+    }
+    .login-box-body {
+    padding: 15px 20px;
+    }
+    .navbar-default .navbar-brand{
+        margin-left: 10px;
+    }
+    .navbar-default .navbar-nav > li > a{
+        text-align: center;
+    }
+    header.smaller .img-csnt{
+        margin-left: 41% !important;
+    }
+}
+@media (min-width: 20px) and (max-width: 360px) {
+    .banner{
+        background-image: url(/img/banner-connect-mobile-750px.jpg);
+        height: 100vh;
+        max-height: 800px;
+        display: block;
+        position: relative;
+    }
+    .banner::after {
+        content: "";
+        opacity: 0.5;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+    .text-border{
+        width: 200px;
+        height: 70px;
+        margin-top: 35%
+    }
+    .intro-para{
+        width: 270px;
+        margin-top: 0px;
+    }
+    .intro-para p{
+        width: 200px;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+    .intro-para h3{
+        font-size: 15px !important;
+    }
+    .text-dec {
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .title-slider{
+        height: 200px;
+        margin-bottom: 10%
+    }
+    .title-slider h1{
+        font-size: 20px;
+        margin: -10px 0 -10px 0;
+    }
+    .img-slider{
+        width: 70px;
+    }
+    .boton-fondo{
+        width: 70px;
+        height: 35px;
+        font-size: 12px !important;
+        margin-top: -10%;
+        padding-top: 1px;
+        padding-right: 10px;
+        padding-left: 6px;
+        text-align: center !important
+    }
+    .quote .btn{
+        width: 70px;
+        height: 30px;
+        font-size: 11px;
+        padding-left: 3.5px;
+        padding-top: 7px;
+    }
+    .get-quote{
+        margin-left: 
+    }
+    .big-text {
+        font-size: 20px;
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .small-text {
+    font-size: 14px;
+    }
+    .intro-para {
+    font-size: 30px;
+    }
+    .header-section p{
+        font-size: 14px;
+    }
+    .heading {
+    margin-bottom: 20px;
+    }
+    .orga-stru i {
+    font-size: 92px;
+    }
+    .orga-stru {
+    padding: 5px 5px 15px 5px;
+    width: 75px;
+    margin-bottom: 20px;
+    }
+    .orga-stru h3 {
+    font-size: 28px;
+    }
+    .orga-stru p {
+    font-size: 13px;
+    }
+    h3.det-txt {
+    font-size: 28px;
+    }
+    .cta-2-txt {
+    font-size: 20px;
+    }
+    .service-box, .text-comment, .price-table{
+        margin-bottom: 30px;
+    }
+    .contact-form-button{
+        width: 40%;
+    }
+    .footer .social-links li {
+    margin: 0 5px 25px;
+    }
+    .cta-2-form-submit-btn {
+    font-size: 10px;
+    }
+    .cta-2-form input[type="email"] {
+    padding: 13px 10px;
+    font-size: 10px;
+    min-width: 187px;
+    }
+    .modal-sm {
+    width: 300px;
+    }
+    .login-box-body {
+    padding: 15px 20px;
+    }
+    .navbar-default .navbar-brand{
+        margin-left: 10px;
+    }
+    .navbar-default .navbar-nav > li > a{
+        text-align: center;
+    }
+    header.smaller .img-csnt{
+        margin-left: 41% !important;
+    }
+}
+@media (max-width: 767px){
+    
+    .gotop:hover{
+        height: 40px;
+        background-position: 50% 45% ;
+    }
+    .mouse{
+        display: none;
+    }
+    .md-text{
+        font-size: 17px;
+    }
+    .barra-menu{
+        background-color: #eaf3ff;
+        margin-top: -10px !important;
+        text-align: center;
+        
+    }
+    .img-csnt{
+        width: 140px;
+        margin: 3px;
+        min-width: 45px;
+    }
+    header.smaller .img-csnt{
+        width: 60px !important;
+        margin-left: 45%;
+        margin-top: 2px
+    }
+    header.smaller{
+        height: 50px !important;
+        transition: background-color 0.9s ease;
+        transition: 0.7s;
+        background-color: #c1ecff;
+    }
+    header.smaller .barra-menu{
+        text-align: center;
+        margin-top: 0px !important;
+    }
+    .whatsapp-mensaje{
+        display:block
+    }
+}
+@media (max-height: 735px){
+    .intro-para{
+        margin-top: 3% !important
+    }
+}
+@media (max-height: 767px){
+    .mouse{
+        display: none;
+    }
+}
