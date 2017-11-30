@@ -35,6 +35,10 @@
    
   </head>
   <body data-spy="scroll" data-target=".navbar">
+    <!--Loader-->
+    <div class="se-pre-con"></div>
+    <!--End loader-->
+   
     <!--Navigation bar-->
     <header  class="navbar navbar-default navbar-fixed-top barra-superior" role="navigation">
       <div class="container">
@@ -371,6 +375,12 @@
         });
         $('.navbar-collapse ul li a , .go-to-top').click(function(){ 
             $('.navbar-toggle:visible').click();
+        });
+    </script>
+    <script>
+        $(window).load(function() {
+		// Animate loader off screen
+            $(".se-pre-con").fadeOut("slow");;
         });
     </script>
     <script> //Javascript Scripts
