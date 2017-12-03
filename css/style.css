@@ -515,7 +515,7 @@ h4.sm-txt {
 p.det-p {
     padding: 40px 0px;
 }
-#pricing{
+#precios{
     background: rgb(247, 247, 247);
 }
 .precio-intro{
@@ -631,7 +631,7 @@ Testimonial
 /***********************************
 Course
 ************************************/
-#courses{
+#plantillas{
     background-color: #b1ddf0
 }
 [class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
