@@ -25,6 +25,11 @@
     <link rel="icon" href="img/favicon-csnt-logo-32.png">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
     <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+    
+    
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
@@ -63,6 +68,7 @@
     </header>
     <!--/ Navigation bar-->
     <!--Banner-->
+<!--
     <div class="banner">
       <div class="bg-color">
         <div class="container">
@@ -102,6 +108,114 @@
           </div>
         </div>
       </div>
+    </div>
+-->
+    <div class="navidad-bg">
+        <div class="layer-bg">
+            <div class="container">
+                <div class="row">
+<!--
+                    <div class="navidad-text">
+                        <h1>¡REGALÁ ESTA OFERTA <br> A TU NEGOCIO! </h1>
+                    </div>
+-->
+                    <div class="banner-navidad">
+                        
+                        <img src="img/banner-navidad-desktop.jpg" alt="" class="img-banner-navidad">
+                        <h1 class="banner-nav-text">¡Comenzá el año nuevo <br>con tu página web!</h1>
+                        <h2>Obtené la página web que<br> necesitas a un precio increíble.</h2>
+                        <p>En <span style="font-family: 'Mogra', cursive;color: #91b3f2">CONSONANTE</span> tenemos la web que necesita tu negocio o emprendimiento. </p>
+<!--                        <h4>TE<br> LLAMAMOS</h4>-->
+                        <button onclick="botonContactar();" class="btn btn-lg btn-danger">CONTACTAR</button>
+                        <h3 class="banner-nav-porc">-40%</h3>
+<!--                        <img class="banner-vineta" src="img/burbuja-de-dialogo.png" alt="">-->
+                        
+                    </div>
+                    
+                    <!--Caja de suscripcion-->
+                    <div class="container">
+                       <div class="row">
+                           <div id="cajaSuscripcion">
+                              <a onclick="botonCerrar();" href="#" class="button-close"></a>
+                               <div class="interior-caja">
+                                   <h1 class="text-center">Nos Comunicamos <br>con vos</h1>
+                                    <div>
+                                        <form name="sentMessage" id="contactForm" novalidate>
+                                            <div class="row control-group">
+                                                <div class="form-group col-xs-12 floating-label-form-group controls">
+                                                    <label>Nombre</label>
+                                                    <input type="text" class="form-control" placeholder="Juan" id="name" required data-validation-required-message="Por favor, ingresá tu nombre">
+                                                    <p class="req-field"></p>
+                                                </div>
+                                            </div>
+                                            <div class="row control-group">
+                                                <div class="form-group col-xs-12 floating-label-form-group controls">
+                                                    <label>Correo electrónico</label>
+                                                    <input type="email" class="form-control" placeholder="juanperez@tucorreo.com" id="email" required data-validation-required-message="Por favor, ingresá un email válido">
+                                                    <p class="req-field"></p>
+                                                </div>
+                                            </div>
+                                            <div class="row control-group">
+                                                <div class="form-group col-xs-12 floating-label-form-group controls">
+                                                    <label>Teléfono</label>
+                                                    <input type="tel" class="form-control" placeholder="351 123 4567" id="phone">
+                                                    <p class="req-field"></p>
+                                                </div>
+                                            </div>
+                                            <div id="success"></div>
+                                            <div class="row">
+                                                <div class="form-group col-xs-12 text-center">
+                                                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="botones-caja">
+                                        <h2>¿Preferís comunicarte vos?</h2>
+                                        <div class="botones-caja-texto">
+                                            <h3 class="col-xs-4 text-center">WhatsApp<br>Directo</h3>
+                                            <h3 class="col-xs-4 text-center">Llamada<br>Directa</h3>
+                                            <h3 class="col-xs-4 text-center">Email<br>Directo</h3>
+                                        </div>
+                                        <br>
+                                        <div class="botones-caja-img">
+                                            <a href="https://api.whatsapp.com/send?phone=5493516662080&text=Hola,%20tengo%20una%20consulta!" class="col-xs-4 text-center"><img src="img/whatsapp2.png" alt=""></a>
+                                            <a href="tel: +54 9 351 666 2080" class="col-xs-4 text-center"><img src="img/whatsapp.png" alt=""></a>
+                                            <a href="mailto:hola@consonante.xyz?Subject=Consulta%20a%20CSNT" class="col-xs-4 text-center"><img src="img/email.png" alt=""></a>
+                                        </div>
+                                    </div>
+                               </div>
+                           </div>
+                       </div>                        
+                    </div>
+                    <!--Fin Caja de suscripcion-->
+                    
+                    <div id="ccl">
+                     <h1>FALTAN</h1>
+                      <div>
+                        <span class="days"></span>
+                        <div class="smalltext">DÍAS</div>
+                      </div>
+                      <div>
+                        <span class="hours"></span>
+                        <div class="smalltext">HORAS</div>
+                      </div>
+                      <div>
+                        <span class="minutes"></span>
+                        <div class="smalltext">MINUTOS</div>
+                      </div>
+                      <div>
+                        <span class="seconds"></span>
+                        <div class="smalltext">SEGUNDOS</div>
+                      </div>
+                      <h1>PARA QUE TERMINE LA PROMO</h1>
+                    </div>
+                    <div id="finish">
+                      <div class="finish-div">¡Lo sentimos! Finalizó la promoción</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!--/ Banner-->
     <div><a href="#" class="gotop"></a></div>
@@ -428,6 +542,58 @@
             slideTime: 500,
             loop: 1
         });
+    </script>
+    <script>
+        function getTimeRemaining(endtime) {
+          var t = Date.parse(endtime) - Date.parse(new Date());
+          var seconds = Math.floor((t / 1000) % 60);
+          var minutes = Math.floor((t / 1000 / 60) % 60);
+          var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+          var days = Math.floor(t / (1000 * 60 * 60 * 24));
+          return {
+            'total': t,
+            'days': days,
+            'hours': hours,
+            'minutes': minutes,
+            'seconds': seconds
+          };
+        }
+
+        function initializeClock(id, endtime) {
+          var clock = document.getElementById(id);
+          var daysSpan = clock.querySelector('.days');
+          var hoursSpan = clock.querySelector('.hours');
+          var minutesSpan = clock.querySelector('.minutes');
+          var secondsSpan = clock.querySelector('.seconds');
+
+          function updateClock() {
+            var t = getTimeRemaining(endtime);
+
+            daysSpan.innerHTML = t.days;
+            hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+            minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+            secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+            if (t.total <= 0) {
+              clearInterval(timeinterval);
+            }
+          }
+
+          updateClock();
+          var timeinterval = setInterval(updateClock, 1000);
+        }
+
+        var deadline = new Date(Date.parse(new Date("Dec 25, 2017 00:00:00"))); 
+        initializeClock('ccl', deadline);
+
+        var now = new Date().getTime();
+
+        var distance = deadline - now;
+
+         if (distance < 0) {
+          document.getElementById("ccl").style.display = "none";
+          document.getElementById("finish").style.display = "block";   
+        }
     </script>
     </body>
 </html>
