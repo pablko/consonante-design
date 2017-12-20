@@ -504,10 +504,10 @@ Banner
 
 /*Caja de suscripcion*/
 #cajaSuscripcion{
-    background-color: #FFF;
+    background-color: #fff;
     width: 300px;
     height: 600px;
-    border: 4px solid #a4d8e9;
+    border: 4px solid #6c98a7;
     border-radius: 12px;
     position: relative;
     margin: 0 auto;
@@ -544,10 +544,10 @@ Banner
 }
 .interior-caja h1{
     color: #18454d;
-    font-size: 28px;
+    font-size: 25px;
     text-transform: uppercase;
     font-family: 'Josefin Sans', sans-serif;
-    padding-top: 20px
+    padding-top: 10px
 }
 .interior-caja label{
     color: #243131 !important;
@@ -555,7 +555,7 @@ Banner
     margin-bottom: -6px !important;
 }
 .interior-caja input{
-    margin-bottom: -30px
+    margin-bottom: -25px
 }
 .interior-caja button{
     margin-top: 0px !important

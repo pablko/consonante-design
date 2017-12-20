@@ -114,22 +114,39 @@
         <div class="layer-bg">
             <div class="container">
                 <div class="row">
-<!--
-                    <div class="navidad-text">
-                        <h1>¡REGALÁ ESTA OFERTA <br> A TU NEGOCIO! </h1>
+                    <div class="">
+                        <div id="ccl">
+                            <h1>FALTAN</h1>
+                            <div>
+                                <span class="days"></span>
+                                <div class="smalltext">DÍAS</div>
+                            </div>
+                            <div>
+                                <span class="hours"></span>
+                                <div class="smalltext">HORAS</div>
+                            </div>
+                            <div>
+                                <span class="minutes"></span>
+                                <div class="smalltext">MINUTOS</div>
+                            </div>
+                            <div>
+                                <span class="seconds"></span>
+                                <div class="smalltext">SEGUNDOS</div>
+                            </div>
+                            <h1>PARA QUE TERMINE LA PROMO</h1>
+                        </div>
+                        <div id="finish">
+                            <div class="finish-div">¡Lo sentimos! Finalizó la promoción</div>
+                        </div>
                     </div>
--->
+
                     <div class="banner-navidad">
-                        
                         <img src="img/banner-navidad-desktop.jpg" alt="" class="img-banner-navidad">
                         <h1 class="banner-nav-text">¡Comenzá el año nuevo <br>con tu página web!</h1>
                         <h2>Obtené la página web que<br> necesitas a un precio increíble.</h2>
                         <p>En <span style="font-family: 'Mogra', cursive;color: #91b3f2">CONSONANTE</span> tenemos la web que necesita tu negocio o emprendimiento. </p>
-<!--                        <h4>TE<br> LLAMAMOS</h4>-->
                         <button onclick="botonContactar();" class="btn btn-lg btn-danger">CONTACTAR</button>
                         <h3 class="banner-nav-porc">-40%</h3>
-<!--                        <img class="banner-vineta" src="img/burbuja-de-dialogo.png" alt="">-->
-                        
                     </div>
                     
                     <!--Caja de suscripcion-->
@@ -140,34 +157,12 @@
                                <div class="interior-caja">
                                    <h1 class="text-center">Nos Comunicamos <br>con vos</h1>
                                     <div>
-                                        <form name="sentMessage" id="contactForm" novalidate>
-                                            <div class="row control-group">
-                                                <div class="form-group col-xs-12 floating-label-form-group controls">
-                                                    <label>Nombre</label>
-                                                    <input type="text" class="form-control" placeholder="Juan" id="name" required data-validation-required-message="Por favor, ingresá tu nombre">
-                                                    <p class="req-field"></p>
-                                                </div>
-                                            </div>
-                                            <div class="row control-group">
-                                                <div class="form-group col-xs-12 floating-label-form-group controls">
-                                                    <label>Correo electrónico</label>
-                                                    <input type="email" class="form-control" placeholder="juanperez@tucorreo.com" id="email" required data-validation-required-message="Por favor, ingresá un email válido">
-                                                    <p class="req-field"></p>
-                                                </div>
-                                            </div>
-                                            <div class="row control-group">
-                                                <div class="form-group col-xs-12 floating-label-form-group controls">
-                                                    <label>Teléfono</label>
-                                                    <input type="tel" class="form-control" placeholder="351 123 4567" id="phone">
-                                                    <p class="req-field"></p>
-                                                </div>
-                                            </div>
-                                            <div id="success"></div>
-                                            <div class="row">
-                                                <div class="form-group col-xs-12 text-center">
-                                                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
-                                                </div>
-                                            </div>
+                                        <form action="../contactform/suscription.php" method="post">
+                                            <input type="text" name="nombre" placeholder="Nombre">
+                                            <input type="email" name="correo" placeholder="Correo electrónico">
+                                            <input type="tel" name="telefono" placeholder="Teléfono">
+                                            <br>
+                                            <input type="submit" value="ENVIAR" id="botonEnviar">
                                         </form>
                                     </div>
                                     <div class="botones-caja">
@@ -190,29 +185,6 @@
                     </div>
                     <!--Fin Caja de suscripcion-->
                     
-                    <div id="ccl">
-                     <h1>FALTAN</h1>
-                      <div>
-                        <span class="days"></span>
-                        <div class="smalltext">DÍAS</div>
-                      </div>
-                      <div>
-                        <span class="hours"></span>
-                        <div class="smalltext">HORAS</div>
-                      </div>
-                      <div>
-                        <span class="minutes"></span>
-                        <div class="smalltext">MINUTOS</div>
-                      </div>
-                      <div>
-                        <span class="seconds"></span>
-                        <div class="smalltext">SEGUNDOS</div>
-                      </div>
-                      <h1>PARA QUE TERMINE LA PROMO</h1>
-                    </div>
-                    <div id="finish">
-                      <div class="finish-div">¡Lo sentimos! Finalizó la promoción</div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -463,7 +435,7 @@
     <!--Footer-->
     <footer id="footer" class="footer">
       <div class="container text-center">
-          <a href="https://www.consonante.xyz"><img src="img/csnt-logo-512px.png" alt=""><h4>Consonante Design</h4></a>
+          <a href="https://www.consonante.xyz"><img src="img/csnt-logo-51-2px.png" alt=""><h4>Consonante Design</h4></a>
           
         <h6>Hecho en Córdoba - Argentina - 2017</h6>
       </div>
