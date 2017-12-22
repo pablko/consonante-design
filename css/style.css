@@ -407,7 +407,7 @@ Banner
     position: relative;
     background-position: center;
 	height: 100vh;
-    min-height: 630px;
+    min-height: 924px;
     z-index: 10
 }
 .layer-bg{
