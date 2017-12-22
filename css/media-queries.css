@@ -1,6 +1,159 @@
+@media (min-width: 992px) and (max-width: 1199px){
+    .banner-navidad{
+        left: -5%;
+        margin-top: 50px
+    }
+}
+@media (min-width: 800px) and (max-width: 991px){
+    .banner-navidad{
+        margin: 0 auto;
+        left: -3%;
+        margin-top: 50px;
+    }
+    .img-banner-navidad{
+        min-height: 339px;
+        min-width: 800px
+    }
+}
+@media (min-width: 768px) and (max-width: 799px){
+    .banner-navidad{
+        left: -7%
+    }
+    .img-banner-navidad{
+        width: 700px;
+        height: 296px
+    }
+    .banner-nav-text{
+        font-size: 30px
+    }
+    .banner-navidad h2{
+        font-size: 20px;
+        margin-top: 10px
+    }
+    .banner-navidad p{
+        top: 190px
+    }
+    .banner-navidad button{
+        width: 200px;
+        left: 280px;
+        top: 222px
+    }
+    .banner-nav-porc{
+        font-size: 30px;
+        left: 510px;
+        top: 210px
+    }
+}
+@media (min-width: 390px) and (max-width: 768px){
+    .banner-navidad{
+    background-image: url(../img/banner-navidad-mobile.jpg);
+    width: 371px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 13px
+    }
+    .img-banner-navidad{
+        display: none
+    }
+    .banner-nav-text{
+        top: -10px;
+    }
+    .banner-navidad h2{
+        top: 120px;
+        left: 40px;
+        text-align: center;
+    }
+    .banner-navidad p{
+        top: 200px;
+        left: 55px
+    }
+    .banner-navidad button{
+        top: 340px;
+        left: 55px
+    }
+    .banner-nav-porc{
+        left: 140px;
+        top: 522px;
+    }
+    #ccl{
+        margin-top: 120px
+    }
+}
+@media (min-width: 280px) and (max-width: 389px){
+    #ccl h1{
+        font-size: 20px;
+        margin-bottom: -5px
+    }
+    .ccl-h1-inf{
+        margin-top: 0px
+    }
+    .img-banner-navidad{
+        display: none
+    }
+    .banner-navidad{
+        background-image: url(../img/banner-navidad-mobile-270x436.jpg);
+        width: 270px;
+        height: 436px;
+        margin: 0 auto;
+        border-radius: 13px;
+        margin-top: 30px
+    }
+    .banner-nav-text{
+        font-size: 24px;
+        margin-top: -10px
+    }
+    .banner-navidad h2{
+        font-size: 18px;
+        text-align: center;
+        width: 250px;
+        top: 80px;
+        left: 10px
+    }
+    .banner-navidad p{
+        left: 15px;
+        top: 140px;
+        font-size: 14px;
+        text-align: center;
+        width: 240px
+    }
+    .banner-navidad button{
+        left: 55px;
+        top: 240px;
+        width: 150px;
+        height: 40px;
+        font-size: 17px
+    }
+    .banner-nav-porc{
+        font-size: 30px;
+        left: 95px;
+        top: 373px
+    }
+}
 @media (max-width: 991px){
     .feature-info{
         margin-right: 19%
+    }
+}
+@media (min-width: 550px) and (max-width: 768px){
+    .banner{
+        background-image: url(/img/banner-connect-mobile-750px.jpg);
+        height: 100vh;
+        max-height: 800px;
+        display: block;
+        position: relative;
+    }
+    .text-border{
+        margin-top: 14%
+    }.intro-para{
+        width: 400px;
+        margin-top: 5% !important
+    }
+    .title-slider{
+        margin-top: -5%
+    }
+    .boton-fondo{
+        margin-top: 10%;
+        text-align: 
     }
 }
 @media (min-width: 992px){
@@ -16,9 +169,6 @@
     }
     .text-border{
         margin-top: 14%
-    }
-    .boton-fondo{
-        margin-top: 10%
     }
 }
 @media (width: 768px){
@@ -98,28 +248,6 @@
         height: 100vh;
         max-height: 900px;
         min-height: 650px
-    }
-}
-@media (min-width: 550px) and (max-width: 768px){
-    .banner{
-        background-image: url(/img/banner-connect-mobile-750px.jpg);
-        height: 100vh;
-        max-height: 800px;
-        display: block;
-        position: relative;
-    }
-    .text-border{
-        margin-top: 14%
-    }.intro-para{
-        width: 400px;
-        margin-top: 5% !important
-    }
-    .title-slider{
-        margin-top: -5%
-    }
-    .boton-fondo{
-        margin-top: 10%;
-        text-align: 
     }
 }
 @media (min-width: 451px) and (max-width: 549px){

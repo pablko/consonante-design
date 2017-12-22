@@ -133,7 +133,7 @@
                                 <span class="seconds"></span>
                                 <div class="smalltext">SEGUNDOS</div>
                             </div>
-                            <h1>PARA QUE TERMINE LA PROMO</h1>
+                            <h1 class="ccl-h1-inf">PARA QUE TERMINE LA PROMO</h1>
                         </div>
                         <div id="finish">
                             <div class="finish-div">¡Lo sentimos! Finalizó la promoción</div>
@@ -142,8 +142,9 @@
 
                     <div class="banner-navidad">
                         <img src="img/banner-navidad-desktop.jpg" alt="" class="img-banner-navidad">
+                        <img class="img-navidad-mobile" src="img/banner-navidad-mobile.jpg" alt="">
                         <h1 class="banner-nav-text">¡Comenzá el año nuevo <br>con tu página web!</h1>
-                        <h2>Obtené la página web que<br> necesitas a un precio increíble.</h2>
+                        <h2>Obtené la web que necesitas<br> a un precio increíble.</h2>
                         <p>En <span style="font-family: 'Mogra', cursive;color: #91b3f2">CONSONANTE</span> tenemos la web que necesita tu negocio o emprendimiento. </p>
                         <button onclick="botonContactar();" class="btn btn-lg btn-danger">CONTACTAR</button>
                         <h3 class="banner-nav-porc">-40%</h3>
@@ -152,17 +153,17 @@
                     <!--Caja de suscripcion-->
                     <div class="container">
                        <div class="row">
-                           <div id="cajaSuscripcion">
-                              <a onclick="botonCerrar();" href="#" class="button-close"></a>
+                          <div id="cajaSuscripcion">
+                           <div class="caja-externa">
                                <div class="interior-caja">
                                    <h1 class="text-center">Nos Comunicamos <br>con vos</h1>
                                     <div>
                                         <form action="suscription.php" method="post">
                                             <input type="text" name="nombre" placeholder="Nombre">
                                             <input type="email" name="correo" placeholder="Correo electrónico">
-                                            <input type="tel" name="telefono" placeholder="Teléfono">
+                                            <input type="tel" name="telefono" placeholder="Teléfono" id="inputTel">
                                             <br>
-                                            <input type="submit" value="ENVIAR" id="botonEnviar">
+                                            <input class="btn btn-md btn-primary" type="submit" value="ENVIAR" id="botonEnviar">
                                         </form>
                                     </div>
                                     <div class="botones-caja">
@@ -174,13 +175,15 @@
                                         </div>
                                         <br>
                                         <div class="botones-caja-img">
-                                            <a href="https://api.whatsapp.com/send?phone=5493516662080&text=Hola,%20tengo%20una%20consulta!" class="col-xs-4 text-center"><img src="img/whatsapp2.png" alt=""></a>
+                                            <a href="https://api.whatsapp.com/send?phone=5493516662080&text=Hola,%20tengo%20una%20consulta!" class="col-xs-4 text-center"><img class="img-btn-1" src="img/whatsapp2.png" alt=""></a>
                                             <a href="tel: +54 9 351 666 2080" class="col-xs-4 text-center"><img src="img/whatsapp.png" alt=""></a>
                                             <a href="mailto:hola@consonante.xyz?Subject=Consulta%20a%20CSNT" class="col-xs-4 text-center"><img src="img/email.png" alt=""></a>
                                         </div>
                                     </div>
+                                    <a onclick="botonCerrar();" href="#" class="button-close"></a>
                                </div>
                            </div>
+                          </div>
                        </div>                        
                     </div>
                     <!--Fin Caja de suscripcion-->
@@ -450,6 +453,7 @@
     <script src="js/text-slider.js"></script>
     <script src="js/contact_me.js"></script>
     <script src="js/jqBootstrapValidation.js"></script>
+
     <script> //jQuery Scripts
         $(document).scroll(function() {
             $('.gotop').toggle($(this).scrollTop() > 500);
@@ -555,7 +559,7 @@
           var timeinterval = setInterval(updateClock, 1000);
         }
 
-        var deadline = new Date(Date.parse(new Date("Dec 25, 2017 00:00:00"))); 
+        var deadline = new Date(Date.parse(new Date("Jan 01, 2018 00:00:00"))); 
         initializeClock('ccl', deadline);
 
         var now = new Date().getTime();

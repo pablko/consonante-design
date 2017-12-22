@@ -92,9 +92,11 @@ initializeClock('clockdiv', deadline);
 /* Barra separadora inteligente */
 
 function botonCerrar(){
-    document.getElementById("cajaSuscripcion").style.left = "-1200px"
+    document.getElementById("cajaSuscripcion").style.left = "-2000px";
+//    document.getElementsById("sombra-caja-suscripcion").style.display = "none";
 };
 
 function botonContactar(){
-    document.getElementById("cajaSuscripcion").style.left = "-000px"
-}
+    document.getElementById("cajaSuscripcion").style.left = "0";
+//    document.getElementsById("sombra-caja-suscripcion").style.display = "block";
+};
