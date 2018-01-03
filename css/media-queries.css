@@ -1,7 +1,15 @@
+@media (min-width: 1200px) and (max-width: 1400px){
+    .caja-externa{
+        margin-top: 150px
+    }
+}
 @media (min-width: 992px) and (max-width: 1199px){
     .banner-navidad{
         left: -5%;
         margin-top: 50px
+    }
+    .caja-externa{
+        margin-top: 200px
     }
 }
 @media (min-width: 800px) and (max-width: 991px){
@@ -77,6 +85,9 @@
     }
     #ccl{
         margin-top: 120px
+    }
+    .caja-externa{
+        margin-top: 110px
     }
 }
 @media (min-width: 280px) and (max-width: 389px){
