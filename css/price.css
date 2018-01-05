@@ -1,11 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: https://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
-/* reset */
-
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
 ol,ul{list-style:none;margin:0px;padding:0px;}
 blockquote,q{quotes:none;}
@@ -44,6 +36,14 @@ margin-top: 1em;
 		-moz-border-radius: 1em;
 		-webkit-border-radius: 1em;
 }
+
+/*Mejor opcion*/
+.mejor-opcion{
+    position: absolute;
+    top: -80px;
+    left: 0px
+}
+
 /* Styles for dialog window */
 #small-dialog,#small-dialog1,#small-dialog2,#small-dialog3,#small-dialog4,#small-dialog5{
 	background: white;
@@ -245,7 +245,8 @@ box-shadow: 3px -4px 13px 3px rgba(0,0,0,0.75);
     width: 60%;
     position: absolute;
     top: -70px;
-    right: -30% !important
+    right: -30% !important;
+    display: none
 }
 .cart2{
 border-bottom: 2px solid#f96d70;

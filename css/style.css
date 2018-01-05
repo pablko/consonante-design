@@ -1,5 +1,3 @@
-
-
 body {
 	font-size: 15px;
     line-height: 1.52;
@@ -298,8 +296,17 @@ Banner
 }
 
 .boton-fondo:hover, .boton-fondo:active, .boton-fondo:focus{
-    color:  #107da1;
+    color:  #000;
     text-decoration: none;
+}
+.boton-fondo p{
+    transition: 0.7s;
+    -o-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -webkit-transition: 0.7s;
+}
+.boton-fondo p:hover, .boton-fondo p:active, .boton-fondo p:focus{
+    transform: scale(1.1)
 }
 .centrado-vertical{
     vertical-align: middle;
@@ -1071,7 +1078,7 @@ Footer
     color: #6397D0;
 }
 .footer img{
-    width: 40px;
+    width: 80px;
     margin-top: -5px;
 }
 .footer h4{
@@ -1086,8 +1093,8 @@ Footer
 	margin: 0 0 40px;
 	font-size: 24px;
 }
-.whatsapp-mensaje{
-    display: none
+.whatsapp-mensaje img{
+    width: 24px
 }
 .footer .form-control {
     border-radius: 30px;
