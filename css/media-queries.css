@@ -185,7 +185,7 @@
     }
     .barra-menu{
     margin-top: 55px;
-    margin-left: 24%;
+    margin-left: calc(100% - 800px)
     }
     .intro-para{
         margin-top: 7% !important
